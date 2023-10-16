@@ -42,7 +42,11 @@
     <property name="Flavor" value="Is that my old pair of vans, How did those get under there??"/>
    </properties>
   </object>
-  <object id="6" name="Table" gid="85" x="220" y="110" width="50" height="35"/>
+  <object id="6" name="Table" gid="85" x="220" y="110" width="50" height="35">
+   <properties>
+    <property name="Flavor" value="This table is messy... Someone should really clean it up..."/>
+   </properties>
+  </object>
   <object id="7" name="CouchL" gid="86" x="225.5" y="166.5" width="75" height="66"/>
   <object id="8" name="CouchR" gid="87" x="262" y="120" width="91" height="78"/>
   <object id="9" name="ChinaCabinet" gid="88" x="23" y="13" width="48" height="80">
