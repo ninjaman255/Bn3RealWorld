@@ -1,0 +1,1 @@
+{"rustc":23821628701823459,"features":"","target":0,"profile":0,"path":0,"deps":[[6462984723745837068,"build_script_main",false,11214148705261954352]],"local":[{"RerunIfChanged":{"output":"release\\build\\mlua-3888ab10a76f32e4\\output","paths":["src/ffi/glue/glue.c","build"]}}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}

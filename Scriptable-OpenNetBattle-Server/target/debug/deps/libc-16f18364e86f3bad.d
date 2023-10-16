@@ -1,0 +1,11 @@
+E:\OBN\OpenNetBattleMyFork\Server_12_22_2021_Bn3\Bn3\Scriptable-OpenNetBattle-Server\target\debug\deps\libc-16f18364e86f3bad.rmeta: C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.125\src\lib.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.125\src\macros.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.125\src\fixed_width_ints.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.125\src\windows\mod.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.125\src\windows\msvc\mod.rs
+
+E:\OBN\OpenNetBattleMyFork\Server_12_22_2021_Bn3\Bn3\Scriptable-OpenNetBattle-Server\target\debug\deps\liblibc-16f18364e86f3bad.rlib: C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.125\src\lib.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.125\src\macros.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.125\src\fixed_width_ints.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.125\src\windows\mod.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.125\src\windows\msvc\mod.rs
+
+E:\OBN\OpenNetBattleMyFork\Server_12_22_2021_Bn3\Bn3\Scriptable-OpenNetBattle-Server\target\debug\deps\libc-16f18364e86f3bad.d: C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.125\src\lib.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.125\src\macros.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.125\src\fixed_width_ints.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.125\src\windows\mod.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.125\src\windows\msvc\mod.rs
+
+C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.125\src\lib.rs:
+C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.125\src\macros.rs:
+C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.125\src\fixed_width_ints.rs:
+C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.125\src\windows\mod.rs:
+C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.125\src\windows\msvc\mod.rs:

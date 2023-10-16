@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=E:\OBN\OpenNetBattleMyFork\Server_12_22_2021_Bn3\Bn3\Scriptable-OpenNetBattle-Server\target\release\build\typenum-10e220384f3d458d\out\consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=E:\OBN\OpenNetBattleMyFork\Server_12_22_2021_Bn3\Bn3\Scriptable-OpenNetBattle-Server\target\release\build\typenum-10e220384f3d458d\out\op.rs

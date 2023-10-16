@@ -1,0 +1,10 @@
+e:\OBN\OpenNetBattleMyFork\Server_12_22_2021_Bn3\Bn3\Scriptable-OpenNetBattle-Server\target\debug\deps\textwrap-a7e4d44d8e715349.rmeta: C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\textwrap-0.15.0\src\lib.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\textwrap-0.15.0\src\indentation.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\textwrap-0.15.0\src\word_separators.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\textwrap-0.15.0\src\word_splitters.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\textwrap-0.15.0\src\wrap_algorithms.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\textwrap-0.15.0\src\core.rs
+
+e:\OBN\OpenNetBattleMyFork\Server_12_22_2021_Bn3\Bn3\Scriptable-OpenNetBattle-Server\target\debug\deps\textwrap-a7e4d44d8e715349.d: C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\textwrap-0.15.0\src\lib.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\textwrap-0.15.0\src\indentation.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\textwrap-0.15.0\src\word_separators.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\textwrap-0.15.0\src\word_splitters.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\textwrap-0.15.0\src\wrap_algorithms.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\textwrap-0.15.0\src\core.rs
+
+C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\textwrap-0.15.0\src\lib.rs:
+C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\textwrap-0.15.0\src\indentation.rs:
+C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\textwrap-0.15.0\src\word_separators.rs:
+C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\textwrap-0.15.0\src\word_splitters.rs:
+C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\textwrap-0.15.0\src\wrap_algorithms.rs:
+C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\textwrap-0.15.0\src\core.rs:

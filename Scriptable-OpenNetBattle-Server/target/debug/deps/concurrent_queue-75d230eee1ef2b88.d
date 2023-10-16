@@ -1,0 +1,10 @@
+E:\OBN\OpenNetBattleMyFork\Server_12_22_2021_Bn3\Bn3\Scriptable-OpenNetBattle-Server\target\debug\deps\concurrent_queue-75d230eee1ef2b88.rmeta: C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\concurrent-queue-1.2.2\src\lib.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\concurrent-queue-1.2.2\src\bounded.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\concurrent-queue-1.2.2\src\single.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\concurrent-queue-1.2.2\src\unbounded.rs
+
+E:\OBN\OpenNetBattleMyFork\Server_12_22_2021_Bn3\Bn3\Scriptable-OpenNetBattle-Server\target\debug\deps\libconcurrent_queue-75d230eee1ef2b88.rlib: C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\concurrent-queue-1.2.2\src\lib.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\concurrent-queue-1.2.2\src\bounded.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\concurrent-queue-1.2.2\src\single.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\concurrent-queue-1.2.2\src\unbounded.rs
+
+E:\OBN\OpenNetBattleMyFork\Server_12_22_2021_Bn3\Bn3\Scriptable-OpenNetBattle-Server\target\debug\deps\concurrent_queue-75d230eee1ef2b88.d: C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\concurrent-queue-1.2.2\src\lib.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\concurrent-queue-1.2.2\src\bounded.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\concurrent-queue-1.2.2\src\single.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\concurrent-queue-1.2.2\src\unbounded.rs
+
+C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\concurrent-queue-1.2.2\src\lib.rs:
+C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\concurrent-queue-1.2.2\src\bounded.rs:
+C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\concurrent-queue-1.2.2\src\single.rs:
+C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\concurrent-queue-1.2.2\src\unbounded.rs:

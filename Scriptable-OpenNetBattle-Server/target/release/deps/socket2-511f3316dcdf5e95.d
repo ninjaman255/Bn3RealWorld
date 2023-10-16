@@ -1,0 +1,11 @@
+E:\OBN\OpenNetBattleMyFork\Server_12_22_2021_Bn3\Bn3\Scriptable-OpenNetBattle-Server\target\release\deps\socket2-511f3316dcdf5e95.rmeta: C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.0\src\lib.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.0\src\sockaddr.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.0\src\socket.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.0\src\sockref.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.0\src\sys\windows.rs
+
+E:\OBN\OpenNetBattleMyFork\Server_12_22_2021_Bn3\Bn3\Scriptable-OpenNetBattle-Server\target\release\deps\libsocket2-511f3316dcdf5e95.rlib: C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.0\src\lib.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.0\src\sockaddr.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.0\src\socket.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.0\src\sockref.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.0\src\sys\windows.rs
+
+E:\OBN\OpenNetBattleMyFork\Server_12_22_2021_Bn3\Bn3\Scriptable-OpenNetBattle-Server\target\release\deps\socket2-511f3316dcdf5e95.d: C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.0\src\lib.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.0\src\sockaddr.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.0\src\socket.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.0\src\sockref.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.0\src\sys\windows.rs
+
+C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.0\src\lib.rs:
+C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.0\src\sockaddr.rs:
+C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.0\src\socket.rs:
+C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.0\src\sockref.rs:
+C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.0\src\sys\windows.rs:

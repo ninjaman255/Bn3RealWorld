@@ -1,0 +1,11 @@
+E:\OBN\OpenNetBattleMyFork\Server_12_22_2021_Bn3\Bn3\Scriptable-OpenNetBattle-Server\target\release\deps\cipher-8a865f1b7161300f.rmeta: C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.3.0\src\lib.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.3.0\src\block.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.3.0\src\common.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.3.0\src\errors.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.3.0\src\stream.rs
+
+E:\OBN\OpenNetBattleMyFork\Server_12_22_2021_Bn3\Bn3\Scriptable-OpenNetBattle-Server\target\release\deps\libcipher-8a865f1b7161300f.rlib: C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.3.0\src\lib.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.3.0\src\block.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.3.0\src\common.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.3.0\src\errors.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.3.0\src\stream.rs
+
+E:\OBN\OpenNetBattleMyFork\Server_12_22_2021_Bn3\Bn3\Scriptable-OpenNetBattle-Server\target\release\deps\cipher-8a865f1b7161300f.d: C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.3.0\src\lib.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.3.0\src\block.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.3.0\src\common.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.3.0\src\errors.rs C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.3.0\src\stream.rs
+
+C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.3.0\src\lib.rs:
+C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.3.0\src\block.rs:
+C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.3.0\src\common.rs:
+C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.3.0\src\errors.rs:
+C:\Users\Clevettes\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.3.0\src\stream.rs:
