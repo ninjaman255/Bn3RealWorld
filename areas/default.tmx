@@ -30,8 +30,12 @@
    </properties>
    <point/>
   </object>
-  <object id="123" gid="87" x="153.5" y="248.5" width="88" height="80"/>
-  <object id="126" gid="88" x="154" y="249" width="88" height="80"/>
+  <object id="123" name="Bed" gid="87" x="152.5" y="248.5" width="88" height="80">
+   <properties>
+    <property name="Flavor" value="It's a bed..."/>
+   </properties>
+  </object>
+  <object id="126" name="Blanket" gid="88" x="153.28" y="249" width="88" height="80"/>
  </objectgroup>
  <layer id="1" name="Floor" width="40" height="41" visible="0" opacity="0.48">
   <data encoding="csv">
