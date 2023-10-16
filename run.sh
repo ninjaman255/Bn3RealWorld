@@ -1,1 +1,1 @@
-./net_battle_server -p 4000
+./net_battle_server -p 3001
