@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="41" height="39" tilewidth="16" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="19">
+ <properties>
+  <property name="Background" value="custom"/>
+  <property name="Background Animation" value="/server/assets/custom/backgrounds/purple.animation"/>
+  <property name="Background Texture" value="/server/assets/custom/backgrounds/purple.png"/>
+  <property name="Background Vel X" type="float" value="0.1"/>
+  <property name="Background Vel Y" type="float" value="0.1"/>
+  <property name="Name" value="Living Room"/>
+  <property name="Song" value="/server/assets/music/1.04 Indoors.ogg"/>
+ </properties>
+ <tileset firstgid="1" source="../assets/tiles/BN3LansHome1.tsx"/>
+ <tileset firstgid="2" source="../assets/tiles/BN3LansHome2.tsx"/>
+ <tileset firstgid="3" source="../assets/tiles/BN3LansHome3.tsx"/>
+ <tileset firstgid="4" source="../assets/tiles/SmallGenericTile.tsx"/>
+ <tileset firstgid="84" source="../assets/tiles/BN3SideTable1.tsx"/>
+ <tileset firstgid="85" source="../assets/tiles/BN3LansHomeTable1.tsx"/>
+ <tileset firstgid="86" source="../assets/tiles/BN3LansCouchL.tsx"/>
+ <tileset firstgid="87" source="../assets/tiles/BN3LansCouchR.tsx"/>
+ <tileset firstgid="88" source="../assets/tiles/BN3LansHomeCabinet.tsx"/>
+ <tileset firstgid="89" source="../assets/tiles/BN3LansBar.tsx"/>
+ <tileset firstgid="90" source="../assets/tiles/LanHomeFridge.tsx"/>
+ <tileset firstgid="91" source="../assets/tiles/BN3LansHomeTV.tsx"/>
+ <tileset firstgid="92" source="../assets/tiles/HallwayOverlay.tsx"/>
+ <tileset firstgid="93" source="../assets/tiles/BackyardOverlay.tsx"/>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" gid="1" x="-14" y="-4" width="426" height="330"/>
+  <object id="2" gid="2" x="151.5" y="160.5" width="427" height="330"/>
+  <object id="3" gid="3" x="151" y="161" width="427" height="330"/>
+  <object id="4" name="ToLansRoom" type="Radius Warp" x="144" y="72">
+   <properties>
+    <property name="Activation Radius" type="float" value="2"/>
+    <property name="Arrival Animation" value="arrow_up_right_in"/>
+    <property name="Leave Animation" value="arrow_up_right_out"/>
+    <property name="Target Area" value="default"/>
+    <property name="Target Object" value="121"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="5" name="SideTable" gid="84" x="267" y="299" width="64" height="61">
+   <properties>
+    <property name="Flavor" value="Is that my old pair of vans, How did those get under there??"/>
+   </properties>
+  </object>
+  <object id="6" name="Table" gid="85" x="222.5" y="123.5" width="50" height="35"/>
+  <object id="7" name="CouchL" gid="86" x="225.5" y="166.5" width="75" height="66"/>
+  <object id="8" name="CouchR" gid="87" x="262" y="120" width="91" height="78"/>
+  <object id="9" name="ChinaCabinet" gid="88" x="23" y="13" width="48" height="80">
+   <properties>
+    <property name="Flavor" value="A china cabinet... I wonder... What would happen if I just shook it a little...?"/>
+   </properties>
+  </object>
+  <object id="10" name="BarTop" gid="89" x="138" y="168" width="46" height="56">
+   <properties>
+    <property name="Flavor" value=""/>
+   </properties>
+  </object>
+  <object id="12" name="Fridge" gid="90" x="80" y="266" width="40" height="74">
+   <properties>
+    <property name="Flavor" value="This is an old era fridge, Wish it could be upgraded..."/>
+   </properties>
+  </object>
+  <object id="13" name="TV" gid="91" x="166" y="28" width="33" height="45">
+   <properties>
+    <property name="Flavor" value="Its a flat screen TV, Too bad we can't find the remote anymore..."/>
+   </properties>
+  </object>
+  <object id="17" name="HallwayOverlay" gid="92" x="167" y="91" width="36" height="85">
+   <properties>
+    <property name="Flavor" value="Its the air controls, Why am I even looking at this right now...?"/>
+   </properties>
+  </object>
+  <object id="18" name="BackyardOverlay" gid="93" x="15.8" y="68.2" width="52" height="80">
+   <properties>
+    <property name="Flavor" value="Apparently it's day out, or it might not be I dont know right now its night time for me..."/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="1" name="Tile Layer 1" width="41" height="39" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,4,4,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,4,4,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,4,4,4,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,4,4,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
