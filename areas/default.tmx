@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" compressionlevel="0" width="40" height="41" tilewidth="16" tileheight="8" infinite="0" nextlayerid="13" nextobjectid="130">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" compressionlevel="0" width="40" height="41" tilewidth="16" tileheight="8" infinite="0" nextlayerid="13" nextobjectid="133">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/purple.animation"/>
@@ -15,6 +15,7 @@
  <tileset firstgid="87" source="../assets/tiles/LansBed.tsx"/>
  <tileset firstgid="89" source="../assets/tiles/LansComp.tsx"/>
  <tileset firstgid="92" source="../assets/tiles/BackyardLansWindowOverlay.tsx"/>
+ <tileset firstgid="93" source="../assets/tiles/Blanket.tsx"/>
  <objectgroup id="5" name="Object Layer">
   <object id="118" gid="86" x="50.5" y="65.5" width="279" height="234"/>
   <object id="119" name="HP Warp" type="Home Warp" gid="1" x="138" y="186" width="60" height="32" visible="0">
@@ -39,6 +40,7 @@
   </object>
   <object id="128" name="LansPc" gid="89" x="202" y="160" width="22" height="34"/>
   <object id="129" name="BackyardOverlay" gid="92" x="72" y="150" width="51" height="70"/>
+  <object id="132" gid="93" x="194.2" y="252.5" width="58" height="41"/>
  </objectgroup>
  <layer id="1" name="Floor" width="40" height="41" visible="0" opacity="0.48">
   <data encoding="csv">
