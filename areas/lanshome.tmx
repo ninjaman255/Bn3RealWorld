@@ -27,7 +27,7 @@
   <object id="1" gid="1" x="-14" y="-4" width="426" height="330"/>
   <object id="2" gid="2" x="151.5" y="160.5" width="427" height="330"/>
   <object id="3" gid="3" x="151" y="161" width="427" height="330"/>
-  <object id="4" name="ToLansRoom" type="Radius Warp" x="144" y="72">
+  <object id="4" name="ToLansRoom" type="Radius Warp" x="144" y="80">
    <properties>
     <property name="Activation Radius" type="float" value="2"/>
     <property name="Arrival Animation" value="arrow_up_right_in"/>
