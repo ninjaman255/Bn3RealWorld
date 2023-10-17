@@ -35,7 +35,7 @@
    </properties>
    <point/>
   </object>
-  <object id="123" name="Bed" gid="87" x="32" y="232" width="88" height="80">
+  <object id="123" name="Bed" gid="87" x="45" y="245" width="88" height="80">
    <properties>
     <property name="Flavor" value="It's a bed..."/>
    </properties>
