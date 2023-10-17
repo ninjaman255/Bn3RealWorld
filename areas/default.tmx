@@ -19,7 +19,7 @@
  <tileset firstgid="93" source="../assets/tiles/LansDesk.tsx"/>
  <tileset firstgid="94" source="../assets/tiles/LansDrawer.tsx"/>
  <objectgroup id="5" name="Object Layer">
-  <object id="118" gid="86" x="10.5" y="1.5" width="279" height="234"/>
+  <object id="118" gid="86" x="8.5" y="-0.5" width="279" height="234"/>
   <object id="119" name="HP Warp" type="Home Warp" gid="1" x="98" y="122" width="60" height="32" visible="0">
    <properties>
     <property name="Direction" value="Down Right"/>
@@ -35,7 +35,7 @@
    </properties>
    <point/>
   </object>
-  <object id="123" name="Bed" gid="87" x="55" y="211" width="88" height="80">
+  <object id="123" name="Bed" gid="87" x="32" y="232" width="88" height="80">
    <properties>
     <property name="Flavor" value="It's a bed..."/>
    </properties>
@@ -43,9 +43,9 @@
   <object id="129" name="BackyardOverlay" gid="91" x="32" y="86" width="51" height="70"/>
   <object id="133" name="LansDesk" gid="93" x="107.85" y="80.25" width="60" height="65"/>
   <object id="134" name="LansPc" gid="88" x="145" y="79" width="22" height="34"/>
-  <object id="135" name="LansDrawer" gid="94" x="203.2" y="122.8" width="47" height="45"/>
+  <object id="135" name="LansDrawer" gid="94" x="201.5" y="120.5" width="47" height="45"/>
  </objectgroup>
- <layer id="1" name="Floor" width="31" height="32" opacity="0.48">
+ <layer id="1" name="Floor" width="31" height="32" visible="0" opacity="0.48">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
