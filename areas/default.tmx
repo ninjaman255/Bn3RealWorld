@@ -30,7 +30,7 @@
     <property name="Activation Radius" type="float" value="2"/>
     <property name="Arrival Animation" value="arrow_down_left_in"/>
     <property name="Leave Animation" value="arrow_down_left_out"/>
-    <property name="Target Area" value="lanshome"/>
+    <property name="Target Area" value="lans-home"/>
     <property name="Target Object" value="4"/>
    </properties>
    <point/>
