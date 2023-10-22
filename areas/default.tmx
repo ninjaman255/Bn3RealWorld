@@ -25,7 +25,7 @@
     <property name="Direction" value="Down Right"/>
    </properties>
   </object>
-  <object id="121" name="ToLivingRoom" type="Radius Warp" x="176" y="232">
+  <object id="121" name="ToLivingRoom" type="Radius Warp" x="176" y="224">
    <properties>
     <property name="Activation Radius" type="float" value="2"/>
     <property name="Arrival Animation" value="arrow_down_left_in"/>
