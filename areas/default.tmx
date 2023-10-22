@@ -40,7 +40,7 @@
     <property name="Flavor" value="It's a bed..."/>
    </properties>
   </object>
-  <object id="129" name="BackyardOverlay" gid="91" x="32" y="86" width="51" height="70">
+  <object id="129" name="BackyardOverlay" gid="91" x="30" y="84" width="51" height="70">
    <properties>
     <property name="Flavor" value="All I see is blue"/>
    </properties>
@@ -57,7 +57,7 @@
   </object>
   <object id="137" name="LansPc" gid="88" x="158.5" y="119.5" width="22" height="34"/>
  </objectgroup>
- <layer id="1" name="Floor" width="31" height="32" opacity="0.48">
+ <layer id="1" name="Floor" width="31" height="32" visible="0" opacity="0.48">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
