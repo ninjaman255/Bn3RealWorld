@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="97" height="100" tilewidth="16" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="10">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="97" height="100" tilewidth="16" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="29">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/darkblue.animation"/>
@@ -14,19 +14,25 @@
  <tileset firstgid="82" source="../assets/tiles/LansDogHouse.tsx"/>
  <tileset firstgid="83" source="../assets/tiles/BN3LansHomeOutside.tsx"/>
  <tileset firstgid="84" source="../assets/tiles/BasicBush.tsx"/>
+ <tileset firstgid="85" source="../assets/tiles/BN3MaylsHomeOutside.tsx"/>
+ <tileset firstgid="86" source="../assets/tiles/BN3ACDCTownTree.tsx"/>
+ <tileset firstgid="87" source="../assets/tiles/BN3ACDCTownSmallRoadMarking.tsx"/>
+ <tileset firstgid="89" source="../assets/tiles/BN3MetroLineOutside.tsx"/>
+ <tileset firstgid="90" source="../assets/tiles/BN3HigsbysShopOutside.tsx"/>
+ <tileset firstgid="91" source="../assets/tiles/BN3ACDCParkBench.tsx"/>
  <objectgroup id="2" name="Object Layer 1" opacity="0.97">
-  <object id="1" gid="81" x="9.5" y="20.5" width="1480" height="768"/>
-  <object id="2" gid="82" x="258" y="560" width="37" height="30">
+  <object id="1" name="Background Image" gid="81" x="9.5" y="20.5" width="1480" height="768"/>
+  <object id="2" name="DogHouse" gid="82" x="258" y="560" width="37" height="30">
    <properties>
     <property name="Flavor" value="It's a dog house, one day there might be a jackin port reinstalled here..."/>
    </properties>
   </object>
-  <object id="3" gid="83" x="242.5" y="543.5" width="120" height="118">
+  <object id="3" name="LansHouse" gid="83" x="242.5" y="543.5" width="120" height="118">
    <properties>
     <property name="Flavor" value="Its the back of Lan's house, what did you expect this text to be?"/>
    </properties>
   </object>
-  <object id="4" type="Radius Warp" x="272" y="536">
+  <object id="4" name="ToLansHome" type="Radius Warp" x="272" y="536">
    <properties>
     <property name="Activation Radius" type="float" value="2"/>
     <property name="Arrival Animation" value="arrow_up_left_in"/>
@@ -36,11 +42,29 @@
    </properties>
    <point/>
   </object>
-  <object id="9" gid="84" x="267" y="495" width="32" height="24">
+  <object id="9" name="Bush1" gid="84" x="267" y="495" width="32" height="24">
    <properties>
     <property name="Flavor" value="It's a bush... Hey maybe I could hide some monies here for a side quest..."/>
    </properties>
   </object>
+  <object id="10" name="MaylHouse" gid="85" x="215.5" y="708.5" width="133" height="134"/>
+  <object id="11" name="Tree1" gid="86" x="536.5" y="695.5" width="48" height="64"/>
+  <object id="12" name="Tree2" gid="86" x="260.5" y="299.5" width="48" height="64"/>
+  <object id="13" name="Tree3" gid="86" x="156.5" y="163.5" width="48" height="64"/>
+  <object id="14" name="Tree4" gid="86" x="108.5" y="163.5" width="48" height="64"/>
+  <object id="16" name="Tree5" gid="86" x="404.5" y="379.5" width="48" height="64"/>
+  <object id="17" name="Tree6" gid="86" x="404.5" y="331.5" width="48" height="64"/>
+  <object id="18" name="Tree7" gid="86" x="400.5" y="207.5" width="48" height="64"/>
+  <object id="19" name="Tree8" gid="86" x="400.5" y="159.5" width="48" height="64"/>
+  <object id="20" name="Tree9" gid="86" x="560.5" y="159.5" width="48" height="64"/>
+  <object id="21" name="Tree10" gid="86" x="608.5" y="159.5" width="48" height="64"/>
+  <object id="22" name="RoadDecoration1" gid="87" x="321.5" y="498.5" width="64" height="32"/>
+  <object id="23" name="RoadDecoration2" gid="87" x="321.5" y="382.5" width="64" height="32"/>
+  <object id="24" name="RoadDecoration3" gid="88" x="255" y="441" width="64" height="32"/>
+  <object id="25" name="RoadDecoration4" gid="88" x="381.5" y="440.5" width="64" height="32"/>
+  <object id="26" name="MetroLine" gid="89" x="571" y="705" width="99" height="86"/>
+  <object id="27" gid="90" x="237" y="259" width="108" height="122"/>
+  <object id="28" gid="91" x="490.5" y="235.5" width="49" height="42"/>
  </objectgroup>
  <layer id="1" name="Tile Layer 1" width="97" height="100" visible="0" opacity="0.31">
   <data encoding="csv">

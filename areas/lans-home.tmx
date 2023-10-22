@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="41" height="39" tilewidth="16" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="24">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="41" height="39" tilewidth="16" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="26">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/purple.animation"/>
@@ -25,8 +25,10 @@
  <tileset firstgid="93" source="../assets/tiles/BackyardOverlay.tsx"/>
  <tileset firstgid="94" source="../assets/tiles/LansHomeCounterTopLeft.tsx"/>
  <tileset firstgid="95" source="../assets/tiles/LansHomeCounterTopRight.tsx"/>
+ <tileset firstgid="96" source="../assets/tiles/BN3LansMiniRug1.tsx"/>
+ <tileset firstgid="97" source="../assets/tiles/BN3LansShade.tsx"/>
  <objectgroup id="2" name="Object Layer 1">
-  <object id="1" gid="1" x="-14" y="-4" width="426" height="330"/>
+  <object id="1" name="Background Image" gid="1" x="-14" y="-4" width="426" height="330"/>
   <object id="4" name="ToLansRoom" type="Radius Warp" x="144" y="80">
    <properties>
     <property name="Activation Radius" type="float" value="2"/>
@@ -92,21 +94,23 @@
    </properties>
    <point/>
   </object>
-  <object id="20" gid="89" x="116.5" y="189.5" width="71" height="56">
+  <object id="20" name="KitchenBar" gid="89" x="116.5" y="189.5" width="71" height="56">
    <properties>
     <property name="Flavor" value="A bar top, Normally theres a tasty meal had here!"/>
    </properties>
   </object>
-  <object id="21" gid="94" x="72" y="254" width="66" height="119">
+  <object id="21" name="CounterTopL" gid="94" x="72" y="254" width="66" height="119">
    <properties>
     <property name="Flavor" value="There's a stove here... Would be a shame if it spontaneously caught fire"/>
    </properties>
   </object>
-  <object id="23" gid="95" x="67" y="261" width="78" height="119">
+  <object id="23" name="CounterTopR" gid="95" x="67" y="261" width="78" height="119">
    <properties>
     <property name="Flavor" value="A sink, some cabinets... Just what you normally would find in a kitchen"/>
    </properties>
   </object>
+  <object id="24" name="FloorMat" gid="96" x="260.6" y="237.3" width="42" height="22"/>
+  <object id="25" name="Shades" gid="97" x="45.2" y="94.6" width="64" height="41"/>
  </objectgroup>
  <layer id="1" name="Tile Layer 1" width="41" height="39" visible="0">
   <data encoding="csv">
