@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="97" height="100" tilewidth="16" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="29">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="97" height="100" tilewidth="16" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="53">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/darkblue.animation"/>
@@ -10,28 +10,24 @@
   <property name="Song" value="/server/assets/music/1.25 Hometown.ogg"/>
  </properties>
  <tileset firstgid="1" source="../assets/tiles/SmallGenericTile.tsx"/>
- <tileset firstgid="81" source="../assets/tiles/BN3ACDCTown.tsx"/>
- <tileset firstgid="82" source="../assets/tiles/LansDogHouse.tsx"/>
- <tileset firstgid="83" source="../assets/tiles/BN3LansHomeOutside.tsx"/>
- <tileset firstgid="84" source="../assets/tiles/BasicBush.tsx"/>
- <tileset firstgid="85" source="../assets/tiles/BN3MaylsHomeOutside.tsx"/>
- <tileset firstgid="86" source="../assets/tiles/BN3ACDCTownTree.tsx"/>
- <tileset firstgid="87" source="../assets/tiles/BN3ACDCTownSmallRoadMarking.tsx"/>
- <tileset firstgid="89" source="../assets/tiles/BN3MetroLineOutside.tsx"/>
- <tileset firstgid="90" source="../assets/tiles/BN3HigsbysShopOutside.tsx"/>
- <tileset firstgid="91" source="../assets/tiles/BN3ACDCParkBench.tsx"/>
+ <tileset firstgid="81" source="../assets/tiles/LansDogHouse.tsx"/>
+ <tileset firstgid="82" source="../assets/tiles/BN3LansHomeOutside.tsx"/>
+ <tileset firstgid="83" source="../assets/tiles/BasicBush.tsx"/>
+ <tileset firstgid="84" source="../assets/tiles/BN3MaylsHomeOutside.tsx"/>
+ <tileset firstgid="85" source="../assets/tiles/BN3ACDCTownTree.tsx"/>
+ <tileset firstgid="86" source="../assets/tiles/BN3ACDCTownSmallRoadMarking.tsx"/>
+ <tileset firstgid="88" source="../assets/tiles/BN3MetroLineOutside.tsx"/>
+ <tileset firstgid="89" source="../assets/tiles/BN3HigsbysShopOutside.tsx"/>
+ <tileset firstgid="90" source="../assets/tiles/BN3ACDCParkBench.tsx"/>
+ <tileset firstgid="91" source="../assets/tiles/BN3ACDCParkSandBox.tsx"/>
+ <tileset firstgid="92" source="../assets/tiles/BN3ACDCParkStillWater.tsx"/>
+ <tileset firstgid="93" source="../assets/tiles/BN3ACDCTownSquirrel.tsx"/>
+ <tileset firstgid="94" source="../assets/tiles/BN3ACDCParkElephantSlide.tsx"/>
+ <tileset firstgid="95" source="../assets/tiles/BN3YaisHouseOutside.tsx"/>
+ <tileset firstgid="96" source="../assets/tiles/BN3DexHomeOutside.tsx"/>
+ <tileset firstgid="97" source="../assets/tiles/BN3ACDCTown.tsx"/>
  <objectgroup id="2" name="Object Layer 1" opacity="0.97">
-  <object id="1" name="Background Image" gid="81" x="9.5" y="20.5" width="1480" height="768"/>
-  <object id="2" name="DogHouse" gid="82" x="258" y="560" width="37" height="30">
-   <properties>
-    <property name="Flavor" value="It's a dog house, one day there might be a jackin port reinstalled here..."/>
-   </properties>
-  </object>
-  <object id="3" name="LansHouse" gid="83" x="242.5" y="543.5" width="120" height="118">
-   <properties>
-    <property name="Flavor" value="Its the back of Lan's house, what did you expect this text to be?"/>
-   </properties>
-  </object>
+  <object id="35" name="Image Background" gid="97" x="-3.5" y="7.5" width="1480" height="781"/>
   <object id="4" name="ToLansHome" type="Radius Warp" x="272" y="536">
    <properties>
     <property name="Activation Radius" type="float" value="2"/>
@@ -42,31 +38,83 @@
    </properties>
    <point/>
   </object>
-  <object id="9" name="Bush1" gid="84" x="267" y="495" width="32" height="24">
+  <object id="2" name="DogHouse" gid="81" x="267" y="565" width="37" height="30">
+   <properties>
+    <property name="Flavor" value="It's a dog house, one day there might be a jackin port reinstalled here..."/>
+   </properties>
+  </object>
+  <object id="3" name="LansHouse" gid="82" x="243.5" y="542.5" width="120" height="118">
+   <properties>
+    <property name="Flavor" value="Its the back of Lan's house, what did you expect this text to be?"/>
+   </properties>
+  </object>
+  <object id="10" name="MaylHouse" gid="84" x="214" y="712" width="133" height="134">
+   <properties>
+    <property name="Flavor" value="It's mayls house, man her whole family must love the color pink..."/>
+   </properties>
+  </object>
+  <object id="34" name="DexsHouse" gid="96" x="511" y="679" width="139" height="124"/>
+  <object id="33" name="YaisHouse" gid="95" x="157" y="209" width="163" height="154"/>
+  <object id="27" name="HigsbysShop" gid="89" x="239.5" y="258.5" width="108" height="122">
+   <properties>
+    <property name="Flavor" value="It's a shop, I wonder what they sell here... Huh higsby's... oh well!"/>
+   </properties>
+  </object>
+  <object id="26" name="MetroLine" gid="88" x="570" y="708" width="99" height="86">
+   <properties>
+    <property name="Flavor" value="It's the metro line! I wonder what locations will open up from here!"/>
+   </properties>
+  </object>
+  <object id="11" name="Tree1" gid="85" x="536.5" y="695.5" width="48" height="64">
+   <properties>
+    <property name="Flavor" value="WHAT? its a tree and it has a jackout port...? Just kidding no it doesn't! Or am I...?"/>
+   </properties>
+  </object>
+  <object id="12" name="Tree2" gid="85" x="260.5" y="299.5" width="48" height="64"/>
+  <object id="13" name="Tree3" gid="85" x="156.5" y="163.5" width="48" height="64"/>
+  <object id="14" name="Tree4" gid="85" x="108.5" y="163.5" width="48" height="64"/>
+  <object id="16" name="Tree5" gid="85" x="404.5" y="379.5" width="48" height="64"/>
+  <object id="17" name="Tree6" gid="85" x="404.5" y="331.5" width="48" height="64"/>
+  <object id="18" name="Tree7" gid="85" x="400.5" y="207.5" width="48" height="64"/>
+  <object id="19" name="Tree8" gid="85" x="400.5" y="159.5" width="48" height="64"/>
+  <object id="20" name="Tree9" gid="85" x="560.5" y="159.5" width="48" height="64"/>
+  <object id="21" name="Tree10" gid="85" x="608.5" y="159.5" width="48" height="64"/>
+  <object id="28" name="ParkBench" gid="90" x="498" y="246" width="49" height="42">
+   <properties>
+    <property name="Flavor" value="It's a park bench"/>
+   </properties>
+  </object>
+  <object id="29" name="SandBox" gid="91" x="495.5" y="262.5" width="208" height="105"/>
+  <object id="30" name="Fountain" gid="92" x="419.5" y="162.5" width="256" height="77"/>
+  <object id="31" name="Squirrel" gid="93" x="440.5" y="183.5" width="40" height="39"/>
+  <object id="32" name="ElephantSlide" gid="94" x="444.5" y="331.5" width="72" height="60">
+   <properties>
+    <property name="Flavor" value="It's a slide, it brings back memories of... wait what was I going on about!"/>
+   </properties>
+  </object>
+  <object id="9" name="Bush1" gid="83" x="267" y="495" width="32" height="24">
    <properties>
     <property name="Flavor" value="It's a bush... Hey maybe I could hide some monies here for a side quest..."/>
    </properties>
   </object>
-  <object id="10" name="MaylHouse" gid="85" x="215.5" y="708.5" width="133" height="134"/>
-  <object id="11" name="Tree1" gid="86" x="536.5" y="695.5" width="48" height="64"/>
-  <object id="12" name="Tree2" gid="86" x="260.5" y="299.5" width="48" height="64"/>
-  <object id="13" name="Tree3" gid="86" x="156.5" y="163.5" width="48" height="64"/>
-  <object id="14" name="Tree4" gid="86" x="108.5" y="163.5" width="48" height="64"/>
-  <object id="16" name="Tree5" gid="86" x="404.5" y="379.5" width="48" height="64"/>
-  <object id="17" name="Tree6" gid="86" x="404.5" y="331.5" width="48" height="64"/>
-  <object id="18" name="Tree7" gid="86" x="400.5" y="207.5" width="48" height="64"/>
-  <object id="19" name="Tree8" gid="86" x="400.5" y="159.5" width="48" height="64"/>
-  <object id="20" name="Tree9" gid="86" x="560.5" y="159.5" width="48" height="64"/>
-  <object id="21" name="Tree10" gid="86" x="608.5" y="159.5" width="48" height="64"/>
-  <object id="22" name="RoadDecoration1" gid="87" x="321.5" y="498.5" width="64" height="32"/>
-  <object id="23" name="RoadDecoration2" gid="87" x="321.5" y="382.5" width="64" height="32"/>
-  <object id="24" name="RoadDecoration3" gid="88" x="255" y="441" width="64" height="32"/>
-  <object id="25" name="RoadDecoration4" gid="88" x="381.5" y="440.5" width="64" height="32"/>
-  <object id="26" name="MetroLine" gid="89" x="571" y="705" width="99" height="86"/>
-  <object id="27" gid="90" x="237" y="259" width="108" height="122"/>
-  <object id="28" gid="91" x="490.5" y="235.5" width="49" height="42"/>
+  <object id="36" name="Bush2" gid="83" x="473.5" y="304.5" width="32" height="24"/>
+  <object id="37" name="Bush3" gid="83" x="541.5" y="572.5" width="32" height="24"/>
+  <object id="39" name="Bush4" gid="83" x="617.5" y="496.5" width="32" height="24"/>
+  <object id="40" name="Bush5" gid="83" x="601.5" y="496.5" width="32" height="24"/>
+  <object id="41" name="Bush6" gid="83" x="525.5" y="636.5" width="32" height="24"/>
+  <object id="42" name="Bush7" gid="83" x="465.5" y="648.5" width="32" height="24"/>
+  <object id="43" name="Bush8" gid="83" x="401.5" y="696.5" width="32" height="24"/>
+  <object id="44" name="Bush9" gid="83" x="445.5" y="492.5" width="32" height="24"/>
+  <object id="45" name="Bush10" gid="83" x="625.5" y="264.5" width="32" height="24"/>
+  <object id="46" name="Bush11" gid="83" x="625.5" y="216.5" width="32" height="24"/>
+  <object id="47" name="Bush12" gid="83" x="137.5" y="624.5" width="32" height="24"/>
+  <object id="48" name="Bush13" gid="83" x="123" y="625" width="32" height="24"/>
+  <object id="49" name="Bush14" gid="83" x="141.5" y="460.5" width="32" height="24"/>
+  <object id="50" name="Bush15" gid="83" x="127" y="461" width="32" height="24"/>
+  <object id="51" name="Bush16" gid="83" x="249.5" y="384.5" width="32" height="24"/>
+  <object id="52" name="Bush17" gid="83" x="261.5" y="324.5" width="32" height="24"/>
  </objectgroup>
- <layer id="1" name="Tile Layer 1" width="97" height="100" visible="0" opacity="0.31">
+ <layer id="1" name="Tile Layer 1" width="97" height="100" opacity="0.31">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
