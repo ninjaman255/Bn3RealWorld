@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="97" height="100" tilewidth="16" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="109">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="97" height="100" tilewidth="16" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="110">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/darkblue.animation"/>
@@ -33,6 +33,7 @@
  <tileset firstgid="102" source="../assets/tiles/BN3ExtraHome3Outside.tsx"/>
  <tileset firstgid="103" source="../assets/tiles/BN3ExtraHome4Outside.tsx"/>
  <tileset firstgid="104" source="../assets/tiles/BN3ACDCParkSandBoxWShadow.tsx"/>
+ <tileset firstgid="105" source="../assets/tiles/BN3DexHomeOutsideOverHang.tsx"/>
  <objectgroup id="2" name="Object Layer 1" opacity="0.97">
   <object id="35" name="Image Background" gid="97" x="-3.5" y="7.5" width="1480" height="781"/>
   <object id="2" name="DogHouse" gid="81" x="267" y="565" width="37" height="30">
@@ -50,7 +51,7 @@
     <property name="Flavor" value="It's mayls house, man her whole family must love the color pink..."/>
    </properties>
   </object>
-  <object id="34" name="DexsHouse" gid="96" x="511" y="679" width="139" height="124"/>
+  <object id="34" name="DexsHouse" gid="96" x="490" y="658" width="139" height="124"/>
   <object id="33" name="YaisHouse" gid="95" x="157" y="209" width="163" height="154"/>
   <object id="27" name="HigsbysShop" gid="89" x="231.5" y="250.5" width="108" height="122">
    <properties>
@@ -170,6 +171,7 @@
   <object id="86" name="ExtraHome3" gid="102" x="363.5" y="764.5" width="110" height="126"/>
   <object id="87" name="ExtraHome4" gid="103" x="351.5" y="616.5" width="110" height="126"/>
   <object id="85" name="Dome" gid="101" x="550.5" y="315.5" width="72" height="49"/>
+  <object id="109" name="DexsHomeOverHang" gid="105" x="631.8" y="590.3" width="53" height="38"/>
  </objectgroup>
  <layer id="1" name="Tile Layer 1" width="97" height="100" opacity="0.31">
   <data encoding="csv">
