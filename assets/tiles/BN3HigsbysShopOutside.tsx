@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.8" tiledversion="1.8.6" name="BN3HigsbysShopOutside" tilewidth="108" tileheight="122" tilecount="1" columns="1" objectalignment="bottomright">
- <tileoffset x="108" y="21"/>
+ <tileoffset x="108" y="29"/>
  <image source="BN3HigsbysShopOutside.png" width="108" height="122"/>
  <tile id="0">
   <objectgroup draworder="index" id="2">
