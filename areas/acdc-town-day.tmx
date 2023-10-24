@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="97" height="100" tilewidth="16" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="108">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="97" height="100" tilewidth="16" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="109">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/darkblue.animation"/>
@@ -154,6 +154,7 @@
   <object id="105" name="Bush59" gid="83" x="255.5" y="166.5" width="32" height="24"/>
   <object id="106" name="Bush60" gid="83" x="200" y="558" width="32" height="24"/>
   <object id="107" name="Bush61" gid="83" x="539" y="555" width="32" height="24"/>
+  <object id="108" name="Bush62" gid="83" x="175.5" y="166.5" width="32" height="24"/>
   <object id="4" name="ToLansHome" type="Radius Warp" x="272" y="536">
    <properties>
     <property name="Activation Radius" type="float" value="2"/>
