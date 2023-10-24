@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="97" height="100" tilewidth="16" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="111">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="97" height="100" tilewidth="16" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="110">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/darkblue.animation"/>
@@ -34,8 +34,9 @@
  <tileset firstgid="103" source="../assets/tiles/BN3ExtraHome4Outside.tsx"/>
  <tileset firstgid="104" source="../assets/tiles/BN3ACDCParkSandBoxWShadow.tsx"/>
  <tileset firstgid="105" source="../assets/tiles/BN3DexHomeOutsideOverHang.tsx"/>
+ <tileset firstgid="106" source="../assets/tiles/BN3ACDCTown-Night.tsx"/>
  <objectgroup id="2" name="Object Layer 1" opacity="0.97">
-  <object id="35" name="Image Background" gid="97" x="-3.5" y="9.5" width="1480" height="781"/>
+  <object id="35" name="Image Background" gid="106" x="-43.75" y="-12.25" width="1535" height="821"/>
   <object id="2" name="DogHouse" gid="81" x="267" y="567" width="37" height="30">
    <properties>
     <property name="Flavor" value="It's a dog house, one day there might be a jackin port reinstalled here..."/>
@@ -121,8 +122,8 @@
   <object id="46" name="Bush11" gid="83" x="623.5" y="216.5" width="32" height="24"/>
   <object id="47" name="Bush12" gid="83" x="135.5" y="624.5" width="32" height="24"/>
   <object id="48" name="Bush13" gid="83" x="119.5" y="624.5" width="32" height="24"/>
-  <object id="49" name="Bush14" gid="83" x="139.5" y="460.5" width="32" height="24"/>
-  <object id="50" name="Bush15" gid="83" x="123.5" y="460.5" width="32" height="24"/>
+  <object id="49" name="Bush14" gid="83" x="143" y="461" width="32" height="24"/>
+  <object id="50" name="Bush15" gid="83" x="127" y="463" width="32" height="24"/>
   <object id="51" name="Bush16" gid="83" x="247.5" y="384.5" width="32" height="24"/>
   <object id="52" name="Bush17" gid="83" x="259.5" y="324.5" width="32" height="24"/>
   <object id="53" name="Bush18" gid="98" x="267.5" y="604.5" width="32" height="24"/>
@@ -176,16 +177,6 @@
     <property name="Leave Animation" value="arrow_up_left_out"/>
     <property name="Target Area" value="lans-home"/>
     <property name="Target Object" value="19"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="110" type="Radius Warp" x="624" y="536">
-   <properties>
-    <property name="Activation Radius" type="float" value="2"/>
-    <property name="Arrival Animation" value="arrow_up_left_in"/>
-    <property name="Leave Animation" value="arrow_up_left_out"/>
-    <property name="Target Area" value="dexs-home"/>
-    <property name="Target Object" value="4"/>
    </properties>
    <point/>
   </object>
