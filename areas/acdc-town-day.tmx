@@ -35,128 +35,127 @@
  <tileset firstgid="104" source="../assets/tiles/BN3ACDCParkSandBoxWShadow.tsx"/>
  <tileset firstgid="105" source="../assets/tiles/BN3DexHomeOutsideOverHang.tsx"/>
  <objectgroup id="2" name="Object Layer 1" opacity="0.97">
-  <object id="35" name="Image Background" gid="97" x="-3.5" y="7.5" width="1480" height="781"/>
-  <object id="2" name="DogHouse" gid="81" x="267" y="565" width="37" height="30">
+  <object id="35" name="Image Background" gid="97" x="-3.5" y="9.5" width="1480" height="781"/>
+  <object id="2" name="DogHouse" gid="81" x="267" y="567" width="37" height="30">
    <properties>
     <property name="Flavor" value="It's a dog house, one day there might be a jackin port reinstalled here..."/>
    </properties>
   </object>
-  <object id="3" name="LansHouse" gid="82" x="243.5" y="542.5" width="120" height="118">
+  <object id="3" name="LansHouse" gid="82" x="243.5" y="544.5" width="120" height="118">
    <properties>
     <property name="Flavor" value="Its the back of Lan's house, what did you expect this text to be?"/>
    </properties>
   </object>
-  <object id="10" name="MaylHouse" gid="84" x="214" y="712" width="133" height="134">
+  <object id="10" name="MaylHouse" gid="84" x="214" y="714" width="133" height="134">
    <properties>
     <property name="Flavor" value="It's mayls house, man her whole family must love the color pink..."/>
    </properties>
   </object>
-  <object id="34" name="DexsHouse" gid="96" x="490" y="658" width="139" height="124"/>
-  <object id="33" name="YaisHouse" gid="95" x="157" y="209" width="163" height="154"/>
-  <object id="27" name="HigsbysShop" gid="89" x="231.5" y="250.5" width="108" height="122">
+  <object id="34" name="DexsHouse" gid="96" x="490" y="660" width="139" height="124"/>
+  <object id="33" name="YaisHouse" gid="95" x="157" y="211" width="163" height="154"/>
+  <object id="27" name="HigsbysShop" gid="89" x="231.5" y="252.5" width="108" height="122">
    <properties>
     <property name="Flavor" value="It's a shop, I wonder what they sell here... Huh higsby's... oh well!"/>
    </properties>
   </object>
-  <object id="26" name="MetroLine" gid="88" x="570" y="708" width="99" height="86">
+  <object id="26" name="MetroLine" gid="88" x="570" y="710" width="99" height="86">
    <properties>
     <property name="Flavor" value="It's the metro line! I wonder what locations will open up from here!"/>
    </properties>
   </object>
-  <object id="11" name="Tree1" gid="85" x="536.5" y="695.5" width="48" height="64">
+  <object id="11" name="Tree1" gid="85" x="536.5" y="697.5" width="48" height="64">
    <properties>
     <property name="Flavor" value="WHAT? its a tree and it has a jackout port...? Just kidding no it doesn't! Or am I...?"/>
    </properties>
   </object>
-  <object id="12" name="Tree2" gid="85" x="260.5" y="299.5" width="48" height="64"/>
-  <object id="13" name="Tree3" gid="85" x="156.5" y="163.5" width="48" height="64"/>
-  <object id="14" name="Tree4" gid="85" x="108.5" y="163.5" width="48" height="64"/>
-  <object id="16" name="Tree5" gid="85" x="404.5" y="379.5" width="48" height="64"/>
-  <object id="17" name="Tree6" gid="85" x="404.5" y="331.5" width="48" height="64"/>
-  <object id="18" name="Tree7" gid="85" x="400.5" y="207.5" width="48" height="64"/>
-  <object id="19" name="Tree8" gid="85" x="400.5" y="159.5" width="48" height="64"/>
-  <object id="20" name="Tree9" gid="85" x="560.5" y="159.5" width="48" height="64"/>
-  <object id="21" name="Tree10" gid="85" x="608.5" y="159.5" width="48" height="64"/>
-  <object id="28" name="ParkBench" gid="90" x="498" y="246" width="49" height="42">
+  <object id="12" name="Tree2" gid="85" x="260.5" y="301.5" width="48" height="64"/>
+  <object id="13" name="Tree3" gid="85" x="156.5" y="165.5" width="48" height="64"/>
+  <object id="14" name="Tree4" gid="85" x="108.5" y="165.5" width="48" height="64"/>
+  <object id="16" name="Tree5" gid="85" x="404.5" y="381.5" width="48" height="64"/>
+  <object id="17" name="Tree6" gid="85" x="404.5" y="333.5" width="48" height="64"/>
+  <object id="18" name="Tree7" gid="85" x="400.5" y="209.5" width="48" height="64"/>
+  <object id="19" name="Tree8" gid="85" x="400.5" y="161.5" width="48" height="64"/>
+  <object id="20" name="Tree9" gid="85" x="560.5" y="161.5" width="48" height="64"/>
+  <object id="21" name="Tree10" gid="85" x="608.5" y="161.5" width="48" height="64"/>
+  <object id="28" name="ParkBench" gid="90" x="498" y="248" width="49" height="42">
    <properties>
     <property name="Flavor" value="It's a park bench"/>
    </properties>
   </object>
-  <object id="29" name="SandBox" gid="104" x="495.5" y="262.5" width="208" height="105"/>
-  <object id="30" name="Fountain" gid="92" x="419.5" y="162.5" width="256" height="77"/>
-  <object id="31" name="Squirrel" gid="93" x="440.5" y="183.5" width="40" height="39"/>
-  <object id="32" name="ElephantSlide" gid="94" x="408.5" y="367.5" width="72" height="60">
+  <object id="29" name="SandBox" gid="104" x="495.5" y="264.5" width="208" height="105"/>
+  <object id="30" name="Fountain" gid="92" x="419.5" y="164.5" width="256" height="77"/>
+  <object id="31" name="Squirrel" gid="93" x="440.5" y="185.5" width="40" height="39"/>
+  <object id="32" name="ElephantSlide" gid="94" x="408.5" y="369.5" width="72" height="60">
    <properties>
     <property name="Flavor" value="It's a slide, it brings back memories of... wait what was I going on about!"/>
    </properties>
   </object>
-  <object id="9" name="Bush1" gid="83" x="267" y="495" width="32" height="24">
+  <object id="9" name="Bush1" gid="83" x="267" y="497" width="32" height="24">
    <properties>
     <property name="Flavor" value="It's a bush... Hey maybe I could hide some monies here for a side quest..."/>
    </properties>
   </object>
-  <object id="36" name="Bush2" gid="83" x="471.5" y="302.5" width="32" height="24"/>
-  <object id="37" name="Bush3" gid="83" x="539.5" y="570.5" width="32" height="24"/>
-  <object id="39" name="Bush4" gid="83" x="615.5" y="494.5" width="32" height="24"/>
-  <object id="40" name="Bush5" gid="83" x="603.5" y="494.5" width="32" height="24"/>
-  <object id="41" name="Bush6" gid="83" x="523.5" y="634.5" width="32" height="24"/>
-  <object id="42" name="Bush7" gid="83" x="463.5" y="646.5" width="32" height="24"/>
-  <object id="43" name="Bush8" gid="83" x="399.5" y="694.5" width="32" height="24"/>
-  <object id="44" name="Bush9" gid="83" x="443.5" y="490.5" width="32" height="24"/>
-  <object id="45" name="Bush10" gid="83" x="625.5" y="264.5" width="32" height="24"/>
-  <object id="46" name="Bush11" gid="83" x="625.5" y="216.5" width="32" height="24"/>
-  <object id="47" name="Bush12" gid="83" x="135.5" y="622.5" width="32" height="24"/>
-  <object id="48" name="Bush13" gid="83" x="119.5" y="622.5" width="32" height="24"/>
-  <object id="49" name="Bush14" gid="83" x="143" y="459" width="32" height="24"/>
-  <object id="50" name="Bush15" gid="83" x="127" y="461" width="32" height="24"/>
-  <object id="51" name="Bush16" gid="83" x="248.5" y="383.5" width="32" height="24"/>
-  <object id="52" name="Bush17" gid="83" x="260" y="324" width="32" height="24"/>
-  <object id="53" name="Bush18" gid="98" x="269.5" y="604.5" width="32" height="24"/>
-  <object id="54" name="Bush19" gid="98" x="258" y="606" width="32" height="24"/>
-  <object id="55" name="Bush20" gid="98" x="252" y="606" width="32" height="24"/>
-  <object id="56" name="Bush21" gid="98" x="242.5" y="605.5" width="32" height="24"/>
-  <object id="57" name="Bush22" gid="98" x="231" y="605" width="32" height="24"/>
-  <object id="58" name="Bush23" gid="98" x="207.5" y="694.5" width="32" height="24"/>
-  <object id="60" name="Bush24" gid="98" x="133.5" y="356.5" width="32" height="24"/>
-  <object id="61" name="Bush25" gid="98" x="181.5" y="356.5" width="32" height="24"/>
-  <object id="62" name="Bush26" gid="98" x="181.5" y="372.5" width="32" height="24"/>
-  <object id="63" name="Bush27" gid="98" x="181.5" y="404.5" width="32" height="24"/>
-  <object id="64" name="Bush28" gid="98" x="149.5" y="404.5" width="32" height="24"/>
-  <object id="67" name="Bush29" gid="83" x="135" y="405" width="32" height="24"/>
-  <object id="68" name="Bush30" gid="83" x="165.5" y="404.5" width="32" height="24"/>
-  <object id="69" name="Bush31" gid="83" x="182.5" y="389.5" width="32" height="24"/>
-  <object id="70" name="Bush32" gid="98" x="271.5" y="278.5" width="32" height="24"/>
-  <object id="71" name="Bush33" gid="98" x="255.5" y="278.5" width="32" height="24"/>
-  <object id="72" name="Bush34" gid="98" x="139.5" y="170.5" width="32" height="24"/>
-  <object id="73" name="Bush35" gid="98" x="625.5" y="248.5" width="32" height="24"/>
-  <object id="74" name="Bush36" gid="98" x="625.5" y="232.5" width="32" height="24"/>
-  <object id="75" name="Bush37" gid="98" x="625.5" y="200.5" width="32" height="24"/>
-  <object id="76" name="Bush38" gid="98" x="577.5" y="392.5" width="32" height="24"/>
-  <object id="77" name="Bush39" gid="98" x="593.5" y="392.5" width="32" height="24"/>
-  <object id="78" name="Bush40" gid="98" x="625.5" y="392.5" width="32" height="24"/>
-  <object id="79" name="Bush41" gid="98" x="625.5" y="344.5" width="32" height="24"/>
-  <object id="80" name="Bush42" gid="98" x="625.5" y="376.5" width="32" height="24"/>
-  <object id="81" name="Bush43" gid="83" x="624.5" y="359.5" width="32" height="24"/>
-  <object id="82" name="Bush44" gid="83" x="607.5" y="390.5" width="32" height="24"/>
-  <object id="88" name="Bush45" gid="98" x="513" y="391" width="32" height="24"/>
-  <object id="89" name="Bush46" gid="98" x="479.5" y="390.5" width="32" height="24"/>
-  <object id="90" name="Bush47" gid="98" x="447.5" y="390.5" width="32" height="24"/>
-  <object id="91" name="Bush48" gid="98" x="431.5" y="390.5" width="32" height="24"/>
-  <object id="92" name="Bush49" gid="83" x="465.5" y="390.5" width="32" height="24"/>
-  <object id="93" name="Bush50" gid="83" x="497.5" y="390.5" width="32" height="24"/>
-  <object id="94" name="Bush51" gid="98" x="523.5" y="650.5" width="32" height="24"/>
-  <object id="95" name="Bush52" gid="98" x="615.5" y="638.5" width="32" height="24"/>
-  <object id="96" name="Bush53" gid="83" x="599.5" y="638.5" width="32" height="24"/>
-  <object id="99" name="Bush54" gid="98" x="395.5" y="538.5" width="32" height="24"/>
-  <object id="100" name="Bush55" gid="83" x="176" y="214" width="32" height="24"/>
-  <object id="102" name="Bush56" gid="83" x="173.5" y="198.5" width="32" height="24"/>
-  <object id="103" name="Bush57" gid="83" x="173.5" y="182.5" width="32" height="24"/>
-  <object id="104" name="Bush58" gid="83" x="271.5" y="166.5" width="32" height="24"/>
-  <object id="105" name="Bush59" gid="83" x="255.5" y="166.5" width="32" height="24"/>
-  <object id="106" name="Bush60" gid="83" x="200" y="558" width="32" height="24"/>
-  <object id="107" name="Bush61" gid="83" x="539" y="555" width="32" height="24"/>
-  <object id="108" name="Bush62" gid="83" x="175.5" y="166.5" width="32" height="24"/>
-  <object id="4" name="ToLansHome" type="Radius Warp" x="272" y="536">
+  <object id="36" name="Bush2" gid="83" x="471.5" y="304.5" width="32" height="24"/>
+  <object id="37" name="Bush3" gid="83" x="539.5" y="572.5" width="32" height="24"/>
+  <object id="39" name="Bush4" gid="83" x="615.5" y="496.5" width="32" height="24"/>
+  <object id="40" name="Bush5" gid="83" x="603.5" y="496.5" width="32" height="24"/>
+  <object id="41" name="Bush6" gid="83" x="523.5" y="636.5" width="32" height="24"/>
+  <object id="42" name="Bush7" gid="83" x="463.5" y="648.5" width="32" height="24"/>
+  <object id="43" name="Bush8" gid="83" x="399.5" y="696.5" width="32" height="24"/>
+  <object id="44" name="Bush9" gid="83" x="443.5" y="492.5" width="32" height="24"/>
+  <object id="45" name="Bush10" gid="83" x="623.5" y="264.5" width="32" height="24"/>
+  <object id="46" name="Bush11" gid="83" x="623.5" y="216.5" width="32" height="24"/>
+  <object id="47" name="Bush12" gid="83" x="135.5" y="624.5" width="32" height="24"/>
+  <object id="48" name="Bush13" gid="83" x="119.5" y="624.5" width="32" height="24"/>
+  <object id="49" name="Bush14" gid="83" x="143" y="461" width="32" height="24"/>
+  <object id="50" name="Bush15" gid="83" x="127" y="463" width="32" height="24"/>
+  <object id="51" name="Bush16" gid="83" x="247.5" y="384.5" width="32" height="24"/>
+  <object id="52" name="Bush17" gid="83" x="259.5" y="324.5" width="32" height="24"/>
+  <object id="53" name="Bush18" gid="98" x="267.5" y="604.5" width="32" height="24"/>
+  <object id="54" name="Bush19" gid="98" x="252" y="608" width="32" height="24"/>
+  <object id="55" name="Bush20" gid="98" x="252" y="608" width="32" height="24"/>
+  <object id="56" name="Bush21" gid="98" x="235.5" y="604.5" width="32" height="24"/>
+  <object id="58" name="Bush23" gid="98" x="207.5" y="696.5" width="32" height="24"/>
+  <object id="60" name="Bush24" gid="98" x="131.5" y="356.5" width="32" height="24"/>
+  <object id="61" name="Bush25" gid="98" x="179.5" y="356.5" width="32" height="24"/>
+  <object id="62" name="Bush26" gid="98" x="179.5" y="372.5" width="32" height="24"/>
+  <object id="63" name="Bush27" gid="98" x="179.5" y="404.5" width="32" height="24"/>
+  <object id="64" name="Bush28" gid="98" x="147.5" y="404.5" width="32" height="24"/>
+  <object id="67" name="Bush29" gid="83" x="131.5" y="404.5" width="32" height="24"/>
+  <object id="68" name="Bush30" gid="83" x="163.5" y="404.5" width="32" height="24"/>
+  <object id="69" name="Bush31" gid="83" x="176.5" y="393.5" width="32" height="24"/>
+  <object id="70" name="Bush32" gid="98" x="271" y="281" width="32" height="24"/>
+  <object id="71" name="Bush33" gid="98" x="255.5" y="280.5" width="32" height="24"/>
+  <object id="72" name="Bush34" gid="98" x="139.5" y="172.5" width="32" height="24"/>
+  <object id="73" name="Bush35" gid="98" x="623.5" y="248.5" width="32" height="24"/>
+  <object id="74" name="Bush36" gid="98" x="623.5" y="232.5" width="32" height="24"/>
+  <object id="75" name="Bush37" gid="98" x="623.5" y="200.5" width="32" height="24"/>
+  <object id="76" name="Bush38" gid="98" x="575.5" y="392.5" width="32" height="24"/>
+  <object id="77" name="Bush39" gid="98" x="591.5" y="392.5" width="32" height="24"/>
+  <object id="78" name="Bush40" gid="98" x="624" y="392" width="32" height="24"/>
+  <object id="79" name="Bush41" gid="98" x="623.5" y="344.5" width="32" height="24"/>
+  <object id="80" name="Bush42" gid="98" x="623.5" y="376.5" width="32" height="24"/>
+  <object id="81" name="Bush43" gid="83" x="624" y="362" width="32" height="24"/>
+  <object id="82" name="Bush44" gid="83" x="607.5" y="392.5" width="32" height="24"/>
+  <object id="88" name="Bush45" gid="98" x="513" y="393" width="32" height="24"/>
+  <object id="89" name="Bush46" gid="98" x="479.5" y="392.5" width="32" height="24"/>
+  <object id="90" name="Bush47" gid="98" x="447.5" y="392.5" width="32" height="24"/>
+  <object id="91" name="Bush48" gid="98" x="431.5" y="392.5" width="32" height="24"/>
+  <object id="92" name="Bush49" gid="83" x="465.5" y="392.5" width="32" height="24"/>
+  <object id="93" name="Bush50" gid="83" x="497.5" y="392.5" width="32" height="24"/>
+  <object id="94" name="Bush51" gid="98" x="523.5" y="652.5" width="32" height="24"/>
+  <object id="95" name="Bush52" gid="98" x="615.5" y="640.5" width="32" height="24"/>
+  <object id="96" name="Bush53" gid="83" x="599.5" y="640.5" width="32" height="24"/>
+  <object id="99" name="Bush54" gid="98" x="395.5" y="540.5" width="32" height="24"/>
+  <object id="100" name="Bush55" gid="83" x="176" y="216" width="32" height="24"/>
+  <object id="102" name="Bush56" gid="83" x="173.5" y="200.5" width="32" height="24"/>
+  <object id="103" name="Bush57" gid="83" x="173.5" y="184.5" width="32" height="24"/>
+  <object id="104" name="Bush58" gid="83" x="271.5" y="168.5" width="32" height="24"/>
+  <object id="105" name="Bush59" gid="83" x="255.5" y="168.5" width="32" height="24"/>
+  <object id="106" name="Bush60" gid="83" x="199.5" y="560.5" width="32" height="24"/>
+  <object id="107" name="Bush61" gid="83" x="539" y="557" width="32" height="24"/>
+  <object id="108" name="Bush62" gid="83" x="175.5" y="168.5" width="32" height="24"/>
+  <object id="4" name="ToLansHome" type="Radius Warp" x="272" y="538">
    <properties>
     <property name="Activation Radius" type="float" value="2"/>
     <property name="Arrival Animation" value="arrow_up_left_in"/>
@@ -166,14 +165,14 @@
    </properties>
    <point/>
   </object>
-  <object id="83" name="ExtraHome1" gid="99" x="100.5" y="711.5" width="108" height="122"/>
-  <object id="84" name="ExtraHome2" gid="100" x="104.5" y="547.5" width="108" height="122"/>
-  <object id="86" name="ExtraHome3" gid="102" x="363.5" y="764.5" width="110" height="126"/>
-  <object id="87" name="ExtraHome4" gid="103" x="351.5" y="616.5" width="110" height="126"/>
-  <object id="85" name="Dome" gid="101" x="550.5" y="315.5" width="72" height="49"/>
-  <object id="109" name="DexsHomeOverHang" gid="105" x="631.8" y="590.3" width="53" height="38"/>
+  <object id="83" name="ExtraHome1" gid="99" x="100.5" y="713.5" width="108" height="122"/>
+  <object id="84" name="ExtraHome2" gid="100" x="104.5" y="549.5" width="108" height="122"/>
+  <object id="86" name="ExtraHome3" gid="102" x="363.5" y="766.5" width="110" height="126"/>
+  <object id="87" name="ExtraHome4" gid="103" x="351.5" y="618.5" width="110" height="126"/>
+  <object id="85" name="Dome" gid="101" x="550.5" y="317.5" width="72" height="49"/>
+  <object id="109" name="DexsHomeOverHang" gid="105" x="631.8" y="592.3" width="53" height="38"/>
  </objectgroup>
- <layer id="1" name="Tile Layer 1" width="97" height="100" opacity="0.31">
+ <layer id="1" name="Tile Layer 1" width="97" height="100" visible="0" opacity="0.31">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
