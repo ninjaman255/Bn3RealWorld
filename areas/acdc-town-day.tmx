@@ -83,8 +83,16 @@
    </properties>
   </object>
   <object id="29" name="SandBox" gid="104" x="495.5" y="264.5" width="208" height="105"/>
-  <object id="30" name="Fountain" gid="92" x="419.5" y="164.5" width="256" height="77"/>
-  <object id="31" name="Squirrel" gid="93" x="440.5" y="185.5" width="40" height="39"/>
+  <object id="30" name="Fountain" gid="92" x="419.5" y="164.5" width="256" height="77">
+   <properties>
+    <property name="Flavor" value="It's a shallow fountain surrounding a very pink squirrel!"/>
+   </properties>
+  </object>
+  <object id="31" name="Squirrel" gid="93" x="440.5" y="185.5" width="40" height="39">
+   <properties>
+    <property name="Flavor" value="You never know there might be a jack in port here!"/>
+   </properties>
+  </object>
   <object id="32" name="ElephantSlide" gid="94" x="408.5" y="369.5" width="72" height="60">
    <properties>
     <property name="Flavor" value="It's a slide, it brings back memories of... wait what was I going on about!"/>
