@@ -45,12 +45,12 @@
   </object>
   <object id="6" name="BookShelf" gid="86" x="87" y="149" width="44" height="88"/>
   <object id="7" name="EntertainmentConsole" gid="87" x="117" y="157" width="50" height="68"/>
-  <object id="9" name="Table" gid="88" x="178" y="168" width="67" height="45">
+  <object id="9" name="Table" gid="88" x="191" y="181" width="67" height="45">
    <properties>
     <property name="Flavor" value="This table is an absolute mess! Old food everywhere, things thrown about... Reminds me of home actually!"/>
    </properties>
   </object>
-  <object id="10" name="BoxesInCorner" gid="89" x="204.8" y="155.2" width="63" height="37"/>
+  <object id="10" name="BoxesInCorner" gid="89" x="206.5" y="157.5" width="63" height="37"/>
   <object id="11" name="TrashCan" gid="90" x="168.5" y="119.5" width="14" height="20"/>
   <object id="12" name="PaperBallPile" gid="92" x="182.5" y="121.5" width="5" height="5">
    <properties>
