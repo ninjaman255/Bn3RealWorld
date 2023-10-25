@@ -45,7 +45,7 @@
   </object>
   <object id="6" name="BookShelf" gid="86" x="87" y="149" width="44" height="88"/>
   <object id="7" name="EntertainmentConsole" gid="87" x="117" y="157" width="50" height="68"/>
-  <object id="9" name="Table" gid="88" x="141" y="201" width="67" height="45">
+  <object id="9" name="Table" gid="88" x="178" y="168" width="67" height="45">
    <properties>
     <property name="Flavor" value="This table is an absolute mess! Old food everywhere, things thrown about... Reminds me of home actually!"/>
    </properties>
