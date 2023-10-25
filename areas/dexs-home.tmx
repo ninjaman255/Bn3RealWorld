@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="33" height="34" tilewidth="16" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="5">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="33" height="34" tilewidth="16" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="33">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/lightpurple.animation"/>
@@ -13,11 +13,22 @@
  <tileset firstgid="2" source="../assets/tiles/SmallGenericTile.tsx"/>
  <tileset firstgid="82" source="../assets/tiles/DexsWindowOverlayDay.tsx"/>
  <tileset firstgid="83" source="../assets/tiles/DexsDesk.tsx"/>
+ <tileset firstgid="85" source="../assets/tiles/DexsCornerBoxes.tsx"/>
+ <tileset firstgid="86" source="../assets/tiles/BN3DexsBookshelf.tsx"/>
+ <tileset firstgid="87" source="../assets/tiles/BN3DexEntertainmentConsole.tsx"/>
+ <tileset firstgid="88" source="../assets/tiles/BN3DexTable.tsx"/>
+ <tileset firstgid="89" source="../assets/tiles/BN3MiscFloorObjectsDexRoom.tsx"/>
+ <tileset firstgid="90" source="../assets/tiles/BN3DexTrashBinWShadows.tsx"/>
+ <tileset firstgid="91" source="../assets/tiles/BN3DexPaperBalls.tsx"/>
  <objectgroup id="2" name="Object Layer 1">
   <object id="1" name="Background Image" gid="1" x="11" y="-5" width="272" height="254"/>
-  <object id="2" gid="82" x="48.25" y="101.75" width="21" height="19"/>
-  <object id="3" gid="83" x="105" y="205" width="66" height="75"/>
-  <object id="4" type="Radius Warp" x="216" y="248">
+  <object id="2" name="DexsWindowOverlay" gid="82" x="48.25" y="101.75" width="21" height="19"/>
+  <object id="3" name="DexsComputer" gid="83" x="105" y="205" width="66" height="75">
+   <properties>
+    <property name="Flavor" value="Its Dex's computer, I wonder what secrets it holds..."/>
+   </properties>
+  </object>
+  <object id="4" name="ToACDCTown" type="Radius Warp" x="216" y="248">
    <properties>
     <property name="Activation Radius" type="float" value="2"/>
     <property name="Arrival Animation" value="arrow_down_left_in"/>
@@ -26,6 +37,125 @@
     <property name="Target Object" value="110"/>
    </properties>
    <point/>
+  </object>
+  <object id="5" name="CornerBoxes" gid="85" x="204.5" y="141.5" width="32" height="37">
+   <properties>
+    <property name="Flavor" value="That's me in the corner, Thats me in the spot, losing all my shiittttt..."/>
+   </properties>
+  </object>
+  <object id="6" name="BookShelf" gid="86" x="87" y="149" width="44" height="88"/>
+  <object id="7" name="EntertainmentConsole" gid="87" x="117" y="157" width="50" height="68"/>
+  <object id="9" name="Table" gid="88" x="141" y="201" width="67" height="45">
+   <properties>
+    <property name="Flavor" value="This table is an absolute mess! Old food everywhere, things thrown about... Reminds me of home actually!"/>
+   </properties>
+  </object>
+  <object id="10" name="BoxesInCorner" gid="89" x="204.8" y="155.2" width="63" height="37"/>
+  <object id="11" name="TrashCan" gid="90" x="168.5" y="119.5" width="14" height="20"/>
+  <object id="12" name="PaperBallPile" gid="92" x="182.5" y="121.5" width="5" height="5">
+   <properties>
+    <property name="Flavor" value="It's a pile of trash..."/>
+   </properties>
+  </object>
+  <object id="13" name="PaperBallPile" gid="92" x="183.5" y="126.5" width="5" height="5">
+   <properties>
+    <property name="Flavor" value="It's a pile of trash..."/>
+   </properties>
+  </object>
+  <object id="14" name="PaperBallPile" gid="92" x="177.5" y="122.5" width="5" height="5">
+   <properties>
+    <property name="Flavor" value="It's a pile of trash..."/>
+   </properties>
+  </object>
+  <object id="15" name="PaperBallPile" gid="92" x="181" y="123" width="5" height="5">
+   <properties>
+    <property name="Flavor" value="It's a pile of trash..."/>
+   </properties>
+  </object>
+  <object id="16" name="PaperBallPile" gid="92" x="180.5" y="117.5" width="5" height="5">
+   <properties>
+    <property name="Flavor" value="It's a pile of trash..."/>
+   </properties>
+  </object>
+  <object id="17" name="PaperBallPile" gid="92" x="179" y="119" width="5" height="5">
+   <properties>
+    <property name="Flavor" value="It's a pile of trash..."/>
+   </properties>
+  </object>
+  <object id="18" name="PaperBallPile" gid="92" x="184.5" y="123.5" width="5" height="5">
+   <properties>
+    <property name="Flavor" value="It's a pile of trash..."/>
+   </properties>
+  </object>
+  <object id="19" name="PaperBallPile" gid="92" x="184" y="120" width="5" height="5">
+   <properties>
+    <property name="Flavor" value="It's a pile of trash..."/>
+   </properties>
+  </object>
+  <object id="20" name="PaperBallPile" gid="91" x="180" y="126" width="5" height="5">
+   <properties>
+    <property name="Flavor" value="It's a pile of trash..."/>
+   </properties>
+  </object>
+  <object id="21" name="PaperBallPile" gid="91" x="175.5" y="114.5" width="5" height="5">
+   <properties>
+    <property name="Flavor" value="It's a pile of trash..."/>
+   </properties>
+  </object>
+  <object id="22" name="PaperBallPile" gid="91" x="180" y="122" width="5" height="5">
+   <properties>
+    <property name="Flavor" value="It's a pile of trash..."/>
+   </properties>
+  </object>
+  <object id="23" name="PaperBallPile" gid="91" x="177" y="121" width="5" height="5">
+   <properties>
+    <property name="Flavor" value="It's a pile of trash..."/>
+   </properties>
+  </object>
+  <object id="24" name="PaperBallPile" gid="91" x="176" y="118" width="5" height="5">
+   <properties>
+    <property name="Flavor" value="It's a pile of trash..."/>
+   </properties>
+  </object>
+  <object id="25" name="PaperBallPile" gid="91" x="181" y="119" width="5" height="5">
+   <properties>
+    <property name="Flavor" value="It's a pile of trash..."/>
+   </properties>
+  </object>
+  <object id="26" name="PaperBallPile" gid="91" x="184" y="122" width="5" height="5">
+   <properties>
+    <property name="Flavor" value="It's a pile of trash..."/>
+   </properties>
+  </object>
+  <object id="27" name="PaperBallPile" gid="91" x="186" y="124" width="5" height="5">
+   <properties>
+    <property name="Flavor" value="It's a pile of trash..."/>
+   </properties>
+  </object>
+  <object id="28" name="PaperBallPile" gid="91" x="187" y="119" width="5" height="5">
+   <properties>
+    <property name="Flavor" value="It's a pile of trash..."/>
+   </properties>
+  </object>
+  <object id="29" name="PaperBallPile" gid="91" x="182" y="116" width="5" height="5">
+   <properties>
+    <property name="Flavor" value="It's a pile of trash..."/>
+   </properties>
+  </object>
+  <object id="30" name="PaperBallPile" gid="91" x="187.5" y="122.5" width="5" height="5">
+   <properties>
+    <property name="Flavor" value="It's a pile of trash..."/>
+   </properties>
+  </object>
+  <object id="31" name="PaperBallPile" gid="91" x="177.5" y="114.5" width="5" height="5">
+   <properties>
+    <property name="Flavor" value="It's a pile of trash..."/>
+   </properties>
+  </object>
+  <object id="32" name="PaperBallPile" gid="91" x="174" y="114" width="5" height="5">
+   <properties>
+    <property name="Flavor" value="It's a pile of trash..."/>
+   </properties>
   </object>
  </objectgroup>
  <layer id="1" name="Tile Layer 1" width="33" height="34" visible="0">
