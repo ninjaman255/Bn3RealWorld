@@ -4,8 +4,8 @@
  <image source="BN3ExtraHome4Outside.png" width="110" height="126"/>
  <tile id="0">
   <objectgroup draworder="index" id="2">
-   <object id="2" x="63" y="125">
-    <polygon points="2,2 -20,-9 -28,-5 -52,-17 -44,-21 -60,-29 -12,-53 48,-23"/>
+   <object id="3" x="63" y="125">
+    <polygon points="-4,4 -22,-5 -30,-1 -59,-16 -51,-20 -64,-27 -12,-53 48,-23"/>
    </object>
   </objectgroup>
  </tile>
