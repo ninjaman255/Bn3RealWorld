@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="97" height="100" tilewidth="16" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="111">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="97" height="100" tilewidth="16" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="112">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/darkblue.animation"/>
@@ -34,6 +34,8 @@
  <tileset firstgid="103" source="../assets/tiles/BN3ExtraHome4Outside.tsx"/>
  <tileset firstgid="104" source="../assets/tiles/BN3ACDCParkSandBoxWShadow.tsx"/>
  <tileset firstgid="105" source="../assets/tiles/BN3DexHomeOutsideOverHang.tsx"/>
+ <tileset firstgid="106" source="../assets/tiles/BasicBushWSquareCollissions.tsx"/>
+ <tileset firstgid="107" source="../assets/tiles/FlowerBushWSquareCollisions.tsx"/>
  <objectgroup id="2" name="Object Layer 1" opacity="0.97">
   <object id="35" name="Image Background" gid="97" x="-3.5" y="9.5" width="1480" height="781"/>
   <object id="2" name="DogHouse" gid="81" x="267" y="567" width="37" height="30">
@@ -185,7 +187,7 @@
     <property name="Flavor" value="What are you looking at im just a bush, nothing to see here..."/>
    </properties>
   </object>
-  <object id="41" name="Bush6" gid="83" x="523.5" y="636.5" width="32" height="24">
+  <object id="41" name="Bush6" gid="106" x="523.5" y="636.5" width="32" height="24">
    <properties>
     <property name="Flavor" value="What are you looking at im just a bush, nothing to see here..."/>
    </properties>
@@ -405,7 +407,7 @@
     <property name="Flavor" value="What are you looking at im just a bush, nothing to see here..."/>
    </properties>
   </object>
-  <object id="94" name="Bush51" gid="98" x="523.5" y="652.5" width="32" height="24">
+  <object id="94" name="Bush51" gid="107" x="523.5" y="652.5" width="32" height="24">
    <properties>
     <property name="Flavor" value="What are you looking at im just a bush, nothing to see here..."/>
    </properties>
