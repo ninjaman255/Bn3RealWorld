@@ -44,8 +44,8 @@
   <object id="15" name="BigPoster" gid="91" x="65.5" y="218.5" width="94" height="85"/>
   <object id="16" name="ACDCPillar" gid="92" x="372.8" y="147.3" width="41" height="108"/>
   <object id="17" name="FloorDecals" gid="93" x="238" y="284" width="212" height="99"/>
-  <object id="18" name="Bench2" gid="94" x="265" y="405" width="71" height="51"/>
-  <object id="19" name="Bench1" gid="94" x="201" y="405" width="71" height="51"/>
+  <object id="18" name="Bench2" gid="94" x="274.5" y="391.5" width="71" height="51"/>
+  <object id="19" name="Bench1" gid="94" x="210.5" y="391.5" width="71" height="51"/>
  </objectgroup>
  <layer id="1" name="Tile Layer 1" width="66" height="48" visible="0" opacity="0.65">
   <data encoding="csv">
