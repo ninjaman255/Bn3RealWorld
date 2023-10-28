@@ -7,7 +7,7 @@
  <objectgroup id="2" name="Object Layer 1">
   <object id="1" gid="81" x="41" y="-39" width="688" height="376"/>
   <object id="2" gid="82" x="273" y="225" width="88" height="61"/>
-  <object id="4" gid="85" x="342.8" y="215.3" width="69" height="51"/>
+  <object id="4" gid="85" x="320.5" y="227.5" width="69" height="51"/>
   <object id="5" x="368" y="312">
    <properties>
     <property name="Activation Radius" type="float" value="3"/>
