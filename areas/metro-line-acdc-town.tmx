@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="66" height="48" tilewidth="16" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="14">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="66" height="48" tilewidth="16" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="20">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/darkblue.animation"/>
@@ -17,6 +17,11 @@
  <tileset firstgid="87" source="../assets/tiles/BN3MetroACDCTownSquirrel.tsx"/>
  <tileset firstgid="88" source="../assets/tiles/BN3MetroACDCTownTicketCounterOverhang.tsx"/>
  <tileset firstgid="89" source="../assets/tiles/BN3MetroTicketCollectorOverhang.tsx"/>
+ <tileset firstgid="90" source="../assets/tiles/BN3MetroACDCTownPoster.tsx"/>
+ <tileset firstgid="91" source="../assets/tiles/BN3MetroACDCTownBillBoard.tsx"/>
+ <tileset firstgid="92" source="../assets/tiles/BN3MetroACDCTownPillar.tsx"/>
+ <tileset firstgid="93" source="../assets/tiles/BN3MetroACDCTownFloorDecals.tsx"/>
+ <tileset firstgid="94" source="../assets/tiles/BN3MetroACDCTownBenchSingle.tsx"/>
  <objectgroup id="2" name="Object Layer 1">
   <object id="1" name="Background Image" gid="81" x="41" y="-39" width="688" height="376"/>
   <object id="2" name="DoubleTicketCollector" gid="82" x="273" y="225" width="88" height="61"/>
@@ -35,6 +40,12 @@
   <object id="10" name="SquirrelTrashBin" gid="87" x="249.5" y="252.5" width="31" height="58"/>
   <object id="11" name="TicketSellerOverhang" gid="88" x="73" y="57" width="160" height="130"/>
   <object id="13" name="TicketCounterOverhang" gid="89" x="263" y="187" width="200" height="112"/>
+  <object id="14" name="SmallPoster" gid="90" x="99" y="179" width="30" height="39"/>
+  <object id="15" name="BigPoster" gid="91" x="65.5" y="218.5" width="94" height="85"/>
+  <object id="16" name="ACDCPillar" gid="92" x="372.8" y="147.3" width="41" height="108"/>
+  <object id="17" name="FloorDecals" gid="93" x="238" y="284" width="212" height="99"/>
+  <object id="18" name="Bench2" gid="94" x="265" y="405" width="71" height="51"/>
+  <object id="19" name="Bench1" gid="94" x="201" y="405" width="71" height="51"/>
  </objectgroup>
  <layer id="1" name="Tile Layer 1" width="66" height="48" visible="0" opacity="0.65">
   <data encoding="csv">
