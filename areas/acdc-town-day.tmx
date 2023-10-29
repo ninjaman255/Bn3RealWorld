@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="97" height="100" tilewidth="16" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="113">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="97" height="100" tilewidth="16" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="114">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/darkblue.animation"/>
@@ -489,6 +489,16 @@
     <property name="Leave Animation" value="arrow_up_left_out"/>
     <property name="Target Area" value="metro-line-acdc-town"/>
     <property name="Target Object" value="5"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="113" name="ToHigsbysShop" type="Radius Warp" x="281" y="243">
+   <properties>
+    <property name="Activation Radius" type="float" value="1.25"/>
+    <property name="Arrival Animation" value="arrow_up_left_in"/>
+    <property name="Leave Animation" value="arrow_up_left_out"/>
+    <property name="Target Area" value="higsbys-shop"/>
+    <property name="Target Object" value="2"/>
    </properties>
    <point/>
   </object>
