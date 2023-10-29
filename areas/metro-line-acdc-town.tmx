@@ -62,7 +62,7 @@
     <property name="Flavor" value="It's a poster advertising the N1GP Tourney... Too bad thats long past done!"/>
    </properties>
   </object>
-  <object id="16" name="ACDCPillar" gid="92" x="372.8" y="147.3" width="41" height="108">
+  <object id="16" name="ACDCPillar" gid="92" x="373" y="149" width="41" height="108">
    <properties>
     <property name="Flavor" value="Hey! What are you doing back here? You aren't supposed to be able to see this message... WHO ARE YOU?!?!"/>
    </properties>
@@ -78,7 +78,7 @@
     <property name="Flavor" value="It's some chairs... How nice of them to provide seating while you wait!"/>
    </properties>
   </object>
-  <object id="20" name="TempTicketSales" gid="5" x="243.5" y="230.5" width="131.5" height="138">
+  <object id="20" name="TempTicketSales" gid="5" x="243.5" y="230.5" width="131.5" height="138" visible="0">
    <properties>
     <property name="Flavor" value="You can buy a ticket from one of these machines... Sadly they seem to need some repairs done before they will work properly again..."/>
    </properties>
