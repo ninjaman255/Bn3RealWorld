@@ -55,7 +55,7 @@
   </object>
   <object id="34" name="DexsHouse" gid="96" x="490" y="660" width="139" height="124"/>
   <object id="109" name="DexsHomeOverHang" gid="105" x="631.8" y="592.3" width="53" height="38"/>
-  <object id="33" name="YaisHouse" gid="95" x="157" y="211" width="163" height="154"/>
+  <object id="33" name="YaisHouse" gid="95" x="197" y="251" width="163" height="154"/>
   <object id="27" name="HigsbysShop" gid="89" x="231.5" y="252.5" width="108" height="122">
    <properties>
     <property name="Flavor" value="It's a shop, I wonder what they sell here... Huh higsby's... oh well!"/>

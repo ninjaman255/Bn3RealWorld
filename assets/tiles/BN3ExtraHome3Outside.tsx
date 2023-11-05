@@ -5,7 +5,10 @@
  <tile id="0">
   <objectgroup draworder="index" id="2">
    <object id="1" x="63" y="125">
-    <polygon points="-4,4 -22,-5 -30,-1 -59,-16 -51,-20 -64,-27 -12,-53 48,-23"/>
+    <polygon points="-6,4 -22,-4 -28,-1 -38,-6 -32,-9 -42,-14 -48,-11 -58,-16 -50,-20 -64,-27 -12,-53 48,-23"/>
+   </object>
+   <object id="3" x="15" y="114">
+    <polygon points="0,0 10,5 16,2 6,-3"/>
    </object>
   </objectgroup>
  </tile>
