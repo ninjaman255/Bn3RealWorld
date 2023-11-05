@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" compressionlevel="0" width="31" height="32" tilewidth="16" tileheight="8" infinite="0" nextlayerid="15" nextobjectid="138">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" compressionlevel="0" width="31" height="32" tilewidth="16" tileheight="8" infinite="0" nextlayerid="15" nextobjectid="139">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/purple.animation"/>
@@ -18,6 +18,7 @@
  <tileset firstgid="92" source="../assets/tiles/Blanket.tsx"/>
  <tileset firstgid="93" source="../assets/tiles/LansDesk.tsx"/>
  <tileset firstgid="94" source="../assets/tiles/LansDrawer.tsx"/>
+ <tileset firstgid="95" source="../assets/tiles/LansBookShelf.tsx"/>
  <objectgroup id="5" name="Object Layer">
   <object id="118" gid="86" x="8.5" y="-0.5" width="279" height="234"/>
   <object id="119" name="HP Warp" type="Home Warp" gid="1" x="98" y="122" width="60" height="32" visible="0">
@@ -56,6 +57,7 @@
    </properties>
   </object>
   <object id="137" name="LansPc" gid="88" x="158.5" y="119.5" width="22" height="34"/>
+  <object id="138" gid="95" x="52.75" y="45.25" width="48" height="72"/>
  </objectgroup>
  <layer id="1" name="Floor" width="31" height="32" visible="0" opacity="0.48">
   <data encoding="csv">
@@ -71,9 +73,9 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,6,6,6,6,6,6,6,6,6,6,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,6,6,6,6,6,6,6,6,6,6,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,70,70,70,70,6,6,6,6,6,6,70,6,6,6,6,6,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,6,6,6,6,6,6,6,6,6,6,70,6,6,6,6,6,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,0,0,0,
