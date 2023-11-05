@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="97" height="100" tilewidth="16" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="110">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="97" height="100" tilewidth="16" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="111">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/darkblue.animation"/>
@@ -36,7 +36,6 @@
  <tileset firstgid="105" source="../assets/tiles/BN3DexHomeOutsideOverHang.tsx"/>
  <tileset firstgid="106" source="../assets/tiles/BN3ACDCTown-Night.tsx"/>
  <objectgroup id="2" name="Object Layer 1" opacity="0.97">
-  <object id="35" name="Image Background" gid="106" x="-43.75" y="-12.25" width="1535" height="821"/>
   <object id="2" name="DogHouse" gid="81" x="267" y="567" width="37" height="30">
    <properties>
     <property name="Flavor" value="It's a dog house, one day there might be a jackin port reinstalled here..."/>
@@ -54,7 +53,7 @@
   </object>
   <object id="34" name="DexsHouse" gid="96" x="490" y="660" width="139" height="124"/>
   <object id="109" name="DexsHomeOverHang" gid="105" x="631.8" y="592.3" width="53" height="38"/>
-  <object id="33" name="YaisHouse" gid="95" x="157" y="211" width="163" height="154"/>
+  <object id="33" name="YaisHouse" gid="95" x="197" y="251" width="163" height="154"/>
   <object id="27" name="HigsbysShop" gid="89" x="231.5" y="252.5" width="108" height="122">
    <properties>
     <property name="Flavor" value="It's a shop, I wonder what they sell here... Huh higsby's... oh well!"/>
@@ -170,7 +169,7 @@
   <object id="106" name="Bush60" gid="83" x="199.5" y="560.5" width="32" height="24"/>
   <object id="107" name="Bush61" gid="83" x="539" y="557" width="32" height="24"/>
   <object id="108" name="Bush62" gid="83" x="175.5" y="168.5" width="32" height="24"/>
-  <object id="4" name="ToLansHome" type="Radius Warp" x="272" y="538">
+  <object id="4" name="ToLansHome" type="Radius Warp" x="268.5" y="533.5">
    <properties>
     <property name="Activation Radius" type="float" value="2"/>
     <property name="Arrival Animation" value="arrow_up_left_in"/>
@@ -180,6 +179,7 @@
    </properties>
    <point/>
   </object>
+  <object id="110" gid="106" x="-3.5" y="9.5" width="1480" height="781"/>
  </objectgroup>
  <layer id="1" name="Tile Layer 1" width="97" height="100" visible="0" opacity="0.31">
   <data encoding="csv">

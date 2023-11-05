@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="33" height="34" tilewidth="16" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="33">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="33" height="34" tilewidth="16" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="34">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/lightpurple.animation"/>
@@ -20,6 +20,7 @@
  <tileset firstgid="89" source="../assets/tiles/BN3MiscFloorObjectsDexRoom.tsx"/>
  <tileset firstgid="90" source="../assets/tiles/BN3DexTrashBinWShadows.tsx"/>
  <tileset firstgid="91" source="../assets/tiles/BN3DexPaperBalls.tsx"/>
+ <tileset firstgid="93" source="../assets/tiles/BN3DexsChair.tsx"/>
  <objectgroup id="2" name="Object Layer 1">
   <object id="1" name="Background Image" gid="1" x="11" y="-5" width="272" height="254"/>
   <object id="2" name="DexsWindowOverlay" gid="82" x="48.25" y="101.75" width="21" height="19"/>
@@ -157,6 +158,7 @@
     <property name="Flavor" value="It's a pile of trash..."/>
    </properties>
   </object>
+  <object id="33" gid="93" x="145.8" y="200.2" width="21" height="38"/>
  </objectgroup>
  <layer id="1" name="Tile Layer 1" width="33" height="34" visible="0">
   <data encoding="csv">
