@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="97" height="100" tilewidth="16" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="114">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="97" height="100" tilewidth="16" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="115">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/darkblue.animation"/>
@@ -458,6 +458,11 @@
    </properties>
   </object>
   <object id="108" name="Bush62" gid="106" x="175.5" y="168.5" width="32" height="24">
+   <properties>
+    <property name="Flavor" value="What are you looking at im just a bush, nothing to see here..."/>
+   </properties>
+  </object>
+  <object id="114" name="Bush63" gid="106" x="107.5" y="316.5" width="32" height="24">
    <properties>
     <property name="Flavor" value="What are you looking at im just a bush, nothing to see here..."/>
    </properties>
