@@ -507,11 +507,11 @@
    </properties>
    <point/>
   </object>
-  <object id="115" name="ToYaisHouse" type="Radius Warp" x="152" y="336">
+  <object id="115" name="ToYaisHouse" type="Radius Warp" x="152" y="328">
    <properties>
-    <property name="Activation Radius" type="float" value="1"/>
+    <property name="Activation Radius" type="float" value="0.6"/>
     <property name="Arrival Animation" value="arrow_up_right_in"/>
-    <property name="Leave Animation" value="arrow_up_rightt_out"/>
+    <property name="Leave Animation" value="arrow_up_right_out"/>
     <property name="Target Area" value="yais-home"/>
     <property name="Target Object" value="8"/>
    </properties>
