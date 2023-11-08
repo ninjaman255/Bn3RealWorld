@@ -467,9 +467,9 @@
     <property name="Flavor" value="What are you looking at im just a bush, nothing to see here..."/>
    </properties>
   </object>
-  <object id="4" name="ToLansHome" type="Radius Warp" x="272" y="538">
+  <object id="4" name="ToLansHome" type="Radius Warp" x="279.5" y="534.5">
    <properties>
-    <property name="Activation Radius" type="float" value="2"/>
+    <property name="Activation Radius" type="float" value="1"/>
     <property name="Arrival Animation" value="arrow_up_left_in"/>
     <property name="Leave Animation" value="arrow_up_left_out"/>
     <property name="Target Area" value="lans-home"/>
@@ -507,7 +507,7 @@
    </properties>
    <point/>
   </object>
-  <object id="115" name="ToYaisHouse" type="Radius Warp" x="152" y="328">
+  <object id="115" name="ToYaisHouse" type="Radius Warp" x="152" y="336">
    <properties>
     <property name="Activation Radius" type="float" value="1"/>
     <property name="Arrival Animation" value="arrow_up_right_in"/>
