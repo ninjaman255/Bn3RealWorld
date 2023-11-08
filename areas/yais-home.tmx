@@ -22,7 +22,7 @@
     <property name="Activation Radius" type="float" value="1"/>
     <property name="Arrival Animation" value="arrow_up_right_in"/>
     <property name="Leave Animation" value="arrow_up_rightt_out"/>
-    <property name="Target Area" value="yais-home"/>
+    <property name="Target Area" value="acdc-town-day"/>
     <property name="Target Object" value="115"/>
    </properties>
    <point/>
