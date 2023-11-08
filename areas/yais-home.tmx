@@ -15,7 +15,7 @@
  <tileset firstgid="83" source="../assets/tiles/BN3YaisRotoryPhone.tsx"/>
  <objectgroup id="2" name="Object Layer 1">
   <object id="1" name="Background Image" gid="81" x="10" y="-6" width="416" height="290"/>
-  <object id="4" name="RoomDividerFront" gid="82" x="53.5" y="236.5" width="57" height="102"/>
+  <object id="4" name="RoomDividerFront" gid="82" x="97.5" y="194.5" width="57" height="102"/>
   <object id="7" name="RotaryPhone" gid="83" x="97.5" y="214.5" width="23" height="36"/>
   <object id="8" name="ToACDCTown" type="Radius Warp" x="312" y="232">
    <properties>
