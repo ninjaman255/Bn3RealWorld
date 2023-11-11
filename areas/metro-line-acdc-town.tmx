@@ -24,12 +24,12 @@
  <tileset firstgid="94" source="../assets/tiles/BN3MetroACDCTownBenchSingle.tsx"/>
  <objectgroup id="2" name="Object Layer 1">
   <object id="1" name="Background Image" gid="81" x="41" y="-39" width="688" height="376"/>
-  <object id="2" name="DoubleTicketCollector" gid="82" x="273" y="225" width="88" height="61">
+  <object id="2" name="DoubleTicketCollector" gid="82" x="271" y="231" width="88" height="61">
    <properties>
     <property name="Flavor" value="It's a ticket collector, only the latest and greatest tech to be used for technology way too old to deserve it..."/>
    </properties>
   </object>
-  <object id="4" name="SingleTicketCollector" gid="85" x="320.5" y="227.5" width="69" height="51">
+  <object id="4" name="SingleTicketCollector" gid="85" x="320.5" y="233.5" width="69" height="51">
    <properties>
     <property name="Flavor" value="It's a ticket collector, only the latest and greatest tech to be used for technology way too old to deserve it..."/>
    </properties>
