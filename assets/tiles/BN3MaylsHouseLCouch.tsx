@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.8" tiledversion="1.8.6" name="BN3MaylsHouseLCouch" tilewidth="96" tileheight="101" tilecount="1" columns="1" objectalignment="bottomright">
- <tileoffset x="96" y="50"/>
+<tileset version="1.8" tiledversion="1.8.6" name="BN3MaylsHouseLCouch" tilewidth="96" tileheight="101" tilecount="1" columns="1" objectalignment="bottomleft">
+ <tileoffset x="58" y="14"/>
  <image source="BN3MaylsHouseLCouch.png" width="96" height="101"/>
  <tile id="0">
   <objectgroup draworder="index" id="2">

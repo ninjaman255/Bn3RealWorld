@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.8" tiledversion="1.8.6" name="BN3MaylsHouseCoffeeTable" tilewidth="56" tileheight="38" tilecount="1" columns="1" objectalignment="topleft">
+<tileset version="1.8" tiledversion="1.8.6" name="BN3MaylsHouseCoffeeTable" tilewidth="56" tileheight="38" tilecount="1" columns="1" objectalignment="bottomleft">
  <tileoffset x="28" y="14"/>
  <image source="BN3MaylsHouseCoffeeTable.png" width="56" height="38"/>
  <tile id="0">
